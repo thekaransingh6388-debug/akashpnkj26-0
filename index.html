@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+  <title>PANKAJ BHARDWAJ | Elite Stock Market Signals</title>
+  <!-- NEW META PIXEL CODE (ID: 1486326933158960) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1486326933158960');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1486326933158960&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- END Meta Pixel Code -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      /* Fresh & different colour scheme: deep midnight emerald + dark violet undertone */
+      background: linear-gradient(135deg, #071013 0%, #0e1a24 100%);
+      font-family: 'Inter', 'Segoe UI', system-ui, 'Poppins', 'Roboto', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px 16px;
+    }
+
+    /* Card with new colour flair: dark teal border & glass effect */
+    .landing-card {
+      max-width: 640px;
+      width: 100%;
+      background: rgba(10, 20, 28, 0.92);
+      backdrop-filter: blur(10px);
+      border-radius: 56px;
+      padding: 28px 24px 44px;
+      box-shadow: 0 30px 45px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(0, 255, 174, 0.2);
+      transition: all 0.3s ease;
+      border: 1px solid rgba(34, 211, 138, 0.35);
+    }
+
+    /* Logo container */
+    .logo-wrapper {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .circle-logo {
+      background: #0a141c;
+      display: inline-flex;
+      padding: 6px;
+      border-radius: 80px;
+      box-shadow: 0 12px 22px -6px black;
+    }
+    .logo-img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 60px;
+      border: 2.5px solid #10b981;
+      transition: transform 0.2s;
+    }
+    .logo-img:hover {
+      transform: scale(1.02);
+    }
+
+    /* Channel Name: PANKAJ BHARDWAJ - NOW YELLOW COLOR */
+    .channel-name {
+      text-align: center;
+      margin-top: 12px;
+      margin-bottom: 10px;
+    }
+    .channel-name h1 {
+      font-size: 2.35rem;
+      font-weight: 800;
+      /* CHANGED TO YELLOW - solid bright yellow with subtle glow */
+      background: linear-gradient(135deg, #FDE047, #FACC15, #EAB308);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: -0.2px;
+      text-shadow: 0 0 8px rgba(250, 204, 21, 0.4);
+    }
+    /* fallback for older browsers - ensure yellow visibility */
+    @supports not (background-clip: text) {
+      .channel-name h1 {
+        color: #FACC15;
+        background: none;
+      }
+    }
+    .badge {
+      background: #0f212e;
+      display: inline-block;
+      padding: 5px 18px;
+      border-radius: 40px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #6ee7b7;
+      margin-top: 8px;
+      backdrop-filter: blur(5px);
+      border: 0.5px solid #2d6a4f;
+    }
+
+    /* Stock benefits section - fresh vibrant text & highlight */
+    .stock-benefits {
+      background: rgba(2, 15, 20, 0.8);
+      backdrop-filter: blur(4px);
+      border-radius: 40px;
+      padding: 22px 24px;
+      margin: 24px 0 28px;
+      border: 1px solid #22664b;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    }
+    .benefit-line {
+      margin: 14px 0;
+      line-height: 1.45;
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+      color: #e2f0ea;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .check-icon {
+      background: #10b981;
+      width: 26px;
+      height: 26px;
+      border-radius: 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: #010b0f;
+      font-size: 14px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    .highlight {
+      color: #facc15;
+      font-weight: 800;
+      background: rgba(0,0,0,0.4);
+      padding: 2px 8px;
+      border-radius: 24px;
+    }
+    .disclaimer-text {
+      margin-top: 18px;
+      padding-top: 12px;
+      border-top: 1px solid #2c7a5c;
+      font-size: 0.85rem;
+      color: #facc15;
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 28px;
+      padding: 12px 18px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    /* DOUBLE BUTTONS exactly below name, fresh colour (teal/dark emerald + dark blue twist) */
+    .double-buttons-above {
+      margin: 8px 0 6px;
+    }
+    .btn-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+    /* New button colour: deep teal + electric gradient (different from previous blue) */
+    .telegram-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: linear-gradient(95deg, #0B3B3F, #115E59);
+      border: none;
+      padding: 16px 18px;
+      border-radius: 60px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: white;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 12px 18px -6px rgba(0, 0, 0, 0.5);
+      border-bottom: 2px solid #2dd4bf;
+      letter-spacing: 0.3px;
+    }
+    .telegram-btn i {
+      font-style: normal;
+      font-size: 1.35rem;
+      filter: drop-shadow(0 1px 1px black);
+    }
+    .telegram-btn:hover {
+      background: linear-gradient(95deg, #072d30, #0a4843);
+      transform: scale(1.01);
+      box-shadow: 0 18px 25px -12px black;
+      border-bottom-color: #5eead4;
+    }
+    .telegram-btn:active {
+      transform: scale(0.98);
+    }
+    /* Second button slightly different shade but same family */
+    .btn-second {
+      background: linear-gradient(95deg, #0A3B3F, #0F5953);
+      border-bottom: 2px solid #2dd4bf;
+    }
+    .btn-second:hover {
+      background: linear-gradient(95deg, #06282b, #0a423d);
+    }
+
+    /* live pulse analysis indicator */
+    .live-pulse {
+      display: inline-flex;
+      align-items: center;
+      background: #0c2a2f;
+      border-radius: 36px;
+      padding: 4px 12px;
+      font-size: 0.7rem;
+      margin-left: 8px;
+      gap: 4px;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #10b981;
+      border-radius: 50%;
+      display: inline-block;
+      animation: pulseGreen 1.2s infinite;
+    }
+    @keyframes pulseGreen {
+      0% { opacity: 0.4; transform: scale(0.8); background-color: #34d399;}
+      100% { opacity: 1; transform: scale(1.2); background-color: #059669;}
+    }
+    .join-note {
+      text-align: center;
+      font-size: 0.72rem;
+      color: #8bb3a8;
+      margin-top: 16px;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      font-size: 11px;
+      color: #4f7a6e;
+      margin-top: 28px;
+    }
+
+    /* Mobile responsive */
+    @media (max-width: 550px) {
+      .landing-card {
+        padding: 20px 18px 36px;
+      }
+      .channel-name h1 {
+        font-size: 1.85rem;
+      }
+      .telegram-btn {
+        font-size: 1rem;
+        padding: 13px 14px;
+        gap: 8px;
+      }
+      .benefit-line {
+        font-size: 0.92rem;
+        gap: 8px;
+      }
+      .logo-img {
+        width: 85px;
+        height: 85px;
+      }
+      .stock-benefits {
+        padding: 16px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="landing-card">
+  <!-- Logo (existing logo link remains) -->
+  <div class="logo-wrapper">
+    <div class="circle-logo">
+      <img class="logo-img" src="https://karanmetalabe.com/wp-content/uploads/2025/11/download-9.jpg" 
+           alt="PANKAJ BHARDWAJ Trading" 
+           onerror="this.onerror=null; this.src='https://placehold.co/100x100?text=PB'">
+    </div>
+  </div>
+
+  <!-- Channel Name: PANKAJ BHARDWAJ - YELLOW COLOR ACTIVE -->
+  <div class="channel-name">
+    <h1>PANKAJ BHARDWAJ</h1>
+    <div class="badge">
+      📈 TELEGRAM ELITE SIGNALS <span class="live-pulse"><span class="pulse-dot"></span> LIVE MARKET</span>
+    </div>
+  </div>
+
+  <!-- === TWO JOIN TELEGRAM BUTTONS (exactly below name, new telegram link) === -->
+  <div class="double-buttons-above">
+    <div class="btn-stack">
+      <!-- Join Button 1 - using new link: https://t.me/+S-OhpzPomWg3NTU1 -->
+      <a href="https://t.me/+S-OhpzPomWg3NTU1" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         class="telegram-btn"
+         onclick="fbq('track', 'Subscribe', {content_name: 'Telegram Join Top Button', link: 'https://t.me/+S-OhpzPomWg3NTU1'}); fbq('track', 'Lead', {button_position: 'first_below_name'});">
+        <i>📱</i> JOIN TELEGRAM CHANNEL
+      </a>
+      
+      <!-- Join Button 2 - same new link, second button -->
+      <a href="https://t.me/+S-OhpzPomWg3NTU1" 
+         target="_blank" 
+         rel="noopener noreferrer"
+         class="telegram-btn btn-second"
+         onclick="fbq('track', 'Subscribe', {content_name: 'Telegram Join Second Button', link: 'https://t.me/+S-OhpzPomWg3NTU1'}); fbq('track', 'Lead', {button_position: 'second_below_name'});">
+        <i>⚡</i> GET FREE CALLS → JOIN NOW
+      </a>
+    </div>
+  </div>
+
+  <!-- Updated Stock Market Lines (fresh content, high converting) -->
+  <div class="stock-benefits">
+    <div class="benefit-line">
+      <span class="check-icon">✓</span> <strong>NIFTY, BANKNIFTY & STOCK OPTIONS</strong> — Get up to <span class="highlight">150-400 Points</span> Per Move
+    </div>
+    <div class="benefit-line">
+      <span class="check-icon">✓</span> <strong>85%+ Accuracy</strong> with Pro Option Chain & Flow Analysis
+    </div>
+    <div class="benefit-line">
+      <span class="check-icon">✓</span> <strong>4-5 Observational Calls Daily</strong> + 3 Best Setups for Everyone
+    </div>
+    <div class="benefit-line">
+      <span class="check-icon">✓</span> <strong>Live Index & Stock Analysis</strong> | Real-time Market Commentary
+    </div>
+    <div class="benefit-line">
+      <span class="check-icon">✓</span> <strong>Weekly Trading Blueprint</strong> & Risk Management Tips
+    </div>
+    <div class="disclaimer-text">
+      🔥 DAILY FREE DEMO CALL ✅  •  Transparent Track Record • Join & Grow
+    </div>
+  </div>
+
+  <div class="join-note">
+    💎 Instant Access • No Spam • Live Options/Futures Calls • 24x7 Trade Updates
+  </div>
+  
+  <footer>
+    © PANKAJ BHARDWAJ | Professional Stock Market Education
+  </footer>
+</div>
+
+<!-- Enhanced Tracking: Subscribe + Lead events for both buttons and Meta Pixel -->
+<script>
+  (function() {
+    // Ensure both buttons fire explicit Subscribe and Lead events (redundant but safe)
+    const allJoinBtns = document.querySelectorAll('.telegram-btn');
+    const telegramChannelLink = "https://t.me/+S-OhpzPomWg3NTU1";
+    
+    if (allJoinBtns.length) {
+      allJoinBtns.forEach((btn, idx) => {
+        // Remove any existing inline listener conflict but keep our robust handler
+        btn.addEventListener('click', (e) => {
+          // Track multiple events to ensure pixel records conversion
+          if (typeof fbq === 'function') {
+            // Subscribe event is crucial for join / subscription tracking
+            fbq('track', 'Subscribe', {
+              content_name: idx === 0 ? 'Main_Join_Telegram' : 'Secondary_Join_Telegram',
+              value: 0,
+              currency: 'INR',
+              predicted_ltv: 0,
+              link: telegramChannelLink
+            });
+            // Also track Lead for deeper funnel
+            fbq('track', 'Lead', {
+              content_category: 'Telegram_Channel_Join',
+              button_label: idx === 0 ? 'First_Join_Button' : 'Second_Join_Button',
+              link: telegramChannelLink
+            });
+            // Custom event to track "Telegram Join"
+            fbq('trackCustom', 'TelegramJoinClick', {
+              button_position: idx === 0 ? 'top' : 'bottom',
+              channel: 'Pankaj_Bhardwaj_Signals'
+            });
+          }
+          // Optional: console debug (safe)
+          console.log(`Telegram join button ${idx+1} clicked — tracked pixel events`);
+        });
+      });
+    }
+    
+    // additional page view already tracked. Scroll tracking for deeper engagement
+    let scrollTracked = false;
+    window.addEventListener('scroll', function() {
+      if (!scrollTracked && window.scrollY > 200) {
+        if (typeof fbq === 'function') fbq('track', 'ScrollDepth', { depth: '30%' });
+        scrollTracked = true;
+      }
+    });
+    
+    // track time on page for quality (optional but good for conversion)
+    let startTime = Date.now();
+    window.addEventListener('beforeunload', function() {
+      let timeSpent = Math.floor((Date.now() - startTime) / 1000);
+      if (timeSpent > 10 && typeof fbq === 'function') {
+        fbq('track', 'TimeOnPage', { duration_seconds: timeSpent });
+      }
+    });
+  })();
+</script>
+</body>
+</html>
